@@ -3,34 +3,31 @@
 
 [Rule]
 
-DOMAIN-SUFFIX,guzzoni.apple.com,AI
-DOMAIN-SUFFIX,api-siri-prod.apple.com,AI
-DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,AI
-DOMAIN-SUFFIX,mask-api.icloud.com,AI
-DOMAIN-SUFFIX,mask-t.apple-dns.net,AI
-DOMAIN-SUFFIX,mask.apple-dns.net,AI
-DOMAIN-SUFFIX,smoot.apple.com,AI
-DOMAIN-SUFFIX,apple-relay.apple.com,AI
-DOMAIN-SUFFIX,apple-relay.cloudflare.com,AI
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com,AI
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,AI
-DOMAIN-SUFFIX,cp4.cloudflare.com,AI
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,AI
-DOMAIN-SUFFIX,gateway.icloud.com,AI
-DOMAIN-SUFFIX,ls.apple.com,AI
-DOMAIN-SUFFIX,mask-h2.icloud.com,AI
-DOMAIN-SUFFIX,mask.icloud.com,AI
-DOMAIN-SUFFIX,apps.mzstatic.com,AI
-DOMAIN-SUFFIX,siri.apple.com,AI
-DOMAIN-SUFFIX,p155-fmfmobile.icloud.com,AI
-DOMAIN-SUFFIX,mesu.apple.com,AI
-
+# ===== PCC 中继（Apple Intelligence 云端请求，7 条）=====
+DOMAIN,apple-relay.apple.com,AI
+DOMAIN,apple-relay.cloudflare.com,AI
+DOMAIN,apple-relay.fastly-edge.com,AI
+DOMAIN,cp4.cloudflare.com,AI
+DOMAIN,apple-relay.mask.apple-dns.net,AI
 DOMAIN,apple-relay.akamaized.net,AI
-DOMAIN,seed.siri.apple.com,AI
-DOMAIN,mask-api.fe2.apple-dns.net,AI
 DOMAIN,apple-carry-relay.cloudflare.com,AI
+
+# ===== Siri 本体（4 条）=====
+DOMAIN,guzzoni.apple.com,AI
+DOMAIN,api-siri-prod.apple.com,AI
+DOMAIN,seed.siri.apple.com,AI
+DOMAIN-SUFFIX,smoot.apple.com,AI
+
+# ===== iCloud 专用代理 API（2 条）=====
+DOMAIN,mask-api.icloud.com,AI
+DOMAIN,mask-api.fe2.apple-dns.net,AI
+
+# ===== 定位服务（2 条）=====
 DOMAIN,gspe1-ssl.ls.apple.com,AI
+DOMAIN,wps.apple.com,AI
+
+# ===== iCloud 基础设施（3 条）=====
 DOMAIN,gateway.icloud.com,AI
 DOMAIN,probe.icloud.com,AI
 DOMAIN,metrics.icloud.com,AI
-DOMAIN,wps.apple.com,AI
+
