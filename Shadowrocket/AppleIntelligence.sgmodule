@@ -2,7 +2,7 @@
 #!desc=Route these domains to a supported-region proxy group, such as a US node.
 
 [Rule]
-DOMAIN-SUFFIX,apple-relay.akamaized.net,AI
+
 DOMAIN-SUFFIX,guzzoni.apple.com,AI
 DOMAIN-SUFFIX,api-siri-prod.apple.com,AI
 DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,AI
@@ -22,3 +22,13 @@ DOMAIN-SUFFIX,mask-h2.icloud.com,AI
 DOMAIN-SUFFIX,mask.icloud.com,AI
 DOMAIN-SUFFIX,apps.mzstatic.com,AI
 DOMAIN-SUFFIX,siri.apple.com,AI
+
+DOMAIN,apple-relay.akamaized.net,AI
+DOMAIN,seed.siri.apple.com,AI
+DOMAIN,mask-api.fe2.apple-dns.net,AI
+DOMAIN,apple-carry-relay.cloudflare.com,AI
+DOMAIN,gspe1-ssl.ls.apple.com,AI
+DOMAIN,gateway.icloud.com,AI
+DOMAIN,probe.icloud.com,AI
+DOMAIN,metrics.icloud.com,AI
+DOMAIN,wps.apple.com,AI
