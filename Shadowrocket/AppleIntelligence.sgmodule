@@ -1,0 +1,24 @@
+#!name=Apple Intelligence / Siri / Relay rules
+#!desc=Route these domains to a supported-region proxy group, such as a US node.
+
+[Rule]
+DOMAIN-SUFFIX,apple-relay.akamaized.net,AI
+DOMAIN-SUFFIX,guzzoni.apple.com,AI
+DOMAIN-SUFFIX,api-siri-prod.apple.com,AI
+DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,AI
+DOMAIN-SUFFIX,mask-api.icloud.com,AI
+DOMAIN-SUFFIX,mask-t.apple-dns.net,AI
+DOMAIN-SUFFIX,mask.apple-dns.net,AI
+DOMAIN-SUFFIX,smoot.apple.com,AI
+DOMAIN-SUFFIX,apple-relay.apple.com,AI
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,AI
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,AI
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,AI
+DOMAIN-SUFFIX,cp4.cloudflare.com,AI
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,AI
+DOMAIN-SUFFIX,gateway.icloud.com,AI
+DOMAIN-SUFFIX,ls.apple.com,AI
+DOMAIN-SUFFIX,mask-h2.icloud.com,AI
+DOMAIN-SUFFIX,mask.icloud.com,AI
+DOMAIN-SUFFIX,apps.mzstatic.com,AI
+DOMAIN-SUFFIX,siri.apple.com,AI
