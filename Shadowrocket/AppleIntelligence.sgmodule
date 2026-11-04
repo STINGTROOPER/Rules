@@ -1,5 +1,5 @@
-#!name=Apple Intelligence / Siri / Relay rules
-#!desc=Route these domains to a supported-region proxy group, such as a US node.
+#!name=Apple Intelligence 与 Siri 分流规则
+#!desc=将这些域名走支持地区的代理策略组（如美国节点），供 Apple Intelligence、Siri AI 及相关中继服务使用。
 
 [Rule]
 
