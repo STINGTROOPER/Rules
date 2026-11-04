@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,mask-h2.icloud.com,AI
 DOMAIN-SUFFIX,mask.icloud.com,AI
 DOMAIN-SUFFIX,apps.mzstatic.com,AI
 DOMAIN-SUFFIX,siri.apple.com,AI
+DOMAIN-SUFFIX,p155-fmfmobile.icloud.com,AI
+DOMAIN-SUFFIX,mesu.apple.com,AI
 
 DOMAIN,apple-relay.akamaized.net,AI
 DOMAIN,seed.siri.apple.com,AI
