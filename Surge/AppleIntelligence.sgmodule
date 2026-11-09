@@ -1,0 +1,31 @@
+#!name=Apple Intelligence 与 Siri 分流规则
+#!desc=将这些域名走支持地区的代理策略组（如美国节点），供 Apple Intelligence、Siri AI 及相关中继服务使用。走策略组 AI Suite。
+
+[Rule]
+# ===== PCC 中继（Apple Intelligence 云端请求，7 条）=====
+DOMAIN,apple-relay.apple.com,AI Suite
+DOMAIN,apple-relay.cloudflare.com,AI Suite
+DOMAIN,apple-relay.fastly-edge.com,AI Suite
+DOMAIN,cp4.cloudflare.com,AI Suite
+DOMAIN,apple-relay.mask.apple-dns.net,AI Suite
+DOMAIN,apple-relay.akamaized.net,AI Suite
+DOMAIN,apple-carry-relay.cloudflare.com,AI Suite
+
+# ===== Siri 本体（4 条）=====
+DOMAIN,guzzoni.apple.com,AI Suite
+DOMAIN,api-siri-prod.apple.com,AI Suite
+DOMAIN,seed.siri.apple.com,AI Suite
+DOMAIN-SUFFIX,smoot.apple.com,AI Suite
+
+# ===== iCloud 专用代理 API（2 条）=====
+DOMAIN,mask-api.icloud.com,AI Suite
+DOMAIN,mask-api.fe2.apple-dns.net,AI Suite
+
+# ===== 定位服务（2 条）=====
+DOMAIN,gspe1-ssl.ls.apple.com,AI Suite
+DOMAIN,wps.apple.com,AI Suite
+
+# ===== iCloud 基础设施（3 条）=====
+DOMAIN,gateway.icloud.com,AI Suite
+DOMAIN,probe.icloud.com,AI Suite
+DOMAIN,metrics.icloud.com,AI Suite
